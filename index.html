@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mainContainer {
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content:center;
+           align-items: center; 
+        }
+
+        .hallOfFame {
+            margin: 2rem 0;
+        }
+
+        .hallOfFame h1 {
+            margin-bottom: 2rem;
+        }
+        
+        .hallOfFame ul li {
+            margin: 1rem;
+        }
+    /* W stylach nie urzywam tła, ponieważ ma to być prototyp strony. */
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+        
+        <div class="hallOfFame" id="hallOfFame">
+            <h1>Hall of fame</h1>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
